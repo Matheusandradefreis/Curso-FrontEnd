@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  flex-basis: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.paragraph {
+  flex: 1 0 400px;
+  padding: 20px;
+  background-color: darkgray;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  width: 350px;
+  height: 300px;
+  background-color: white;
+  border: 2px solid black;
+}

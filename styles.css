@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.head {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imgrock {
+  width: 40px;
+}
+
+.imglogo {
+  width: 100px;
+}
+
+.button {
+  display: flex;
+  gap: 10px;
+}
+.button1 {
+  font-size: 2  0px;
+  padding: 10px 15px
+  border-radius: 10px;
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s; 
+}
+
+.button1:hover{
+  border-color: #ff0044;
+
+}
