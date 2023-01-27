@@ -1,0 +1,22 @@
+.btn, .btnazul {
+  width: 125px;
+  padding: 10px 0px;
+  border-radius: 20px;
+  display: block;
+  margin-top: 10px;
+}
+.btn.btnroxo, .btnroxo.btnazul {
+  background-color: purple;
+  color: white;
+}
+.btn.btnamarelo, .btnamarelo.btnazul {
+  background-color: yellow;
+  color: white;
+}
+
+.btnazul {
+  background-color: blue;
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */

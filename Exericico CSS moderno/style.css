@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.header {
+  width: 100%;
+  min-height: 40px;
+  background-color: #292929;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 8px 15px;
+}
+.logoNavBar {
+  height: 40px;
+  margin: 35px;
+}
+
+.headerBtnGroup {
+  display: flex;
+  gap: 15px;
+}
+
+.navBtn {
+  font-size: 16px;
+  padding: 6px;
+  background-color: transparent;
+  border: 2px solid transparent;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.navBtn :hover {
+  border-bottom: 2px solid black;
+}
+.sectiontitle {
+  margin: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+.sectiondescription {
+  font-size: 20px;
+  text-align: center;
+}
+
+.container {
+  height: 1000px;
+  margin: 20px;
+  padding: auto;
+}
+.sectionimg {
+  margin: 20px;
+  width: 300px;
+  height: 200px;
+}
+
+.maincontent {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
